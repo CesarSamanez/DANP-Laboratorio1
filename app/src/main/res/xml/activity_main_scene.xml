@@ -12,48 +12,48 @@
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startHorizontal"
-                motion:percentX="0.47"
-                motion:percentY="0.428" />
+                motion:percentX="0.488"
+                motion:percentY="0.417" />
 
             <KeyPosition
                 motion:framePosition="10"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.365"
-                motion:percentY="0.398" />
+                motion:percentX="0.634"
+                motion:percentY="0.409" />
 
             <KeyPosition
                 motion:framePosition="15"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.333"
-                motion:percentY="0.327" />
+                motion:percentX="0.623"
+                motion:percentY="0.319" />
 
             <KeyPosition
                 motion:framePosition="20"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.428"
-                motion:percentY="0.273" />
+                motion:percentX="0.446"
+                motion:percentY="0.289" />
 
             <KeyPosition
                 motion:framePosition="25"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.65"
-                motion:percentY="0.295" />
+                motion:percentX="0.306"
+                motion:percentY="0.374" />
 
             <KeyPosition
                 motion:framePosition="30"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.674"
-                motion:percentY="0.403" />
+                motion:percentX="0.365"
+                motion:percentY="0.458" />
 
             <KeyPosition
                 motion:framePosition="35"
@@ -68,15 +68,15 @@
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.27"
-                motion:percentY="0.468" />
+                motion:percentX="0.757"
+                motion:percentY="0.423" />
             <KeyPosition
                 motion:framePosition="45"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.211"
-                motion:percentY="0.353" />
+                motion:percentX="0.673"
+                motion:percentY="0.24" />
             <KeyPosition
                 motion:framePosition="50"
                 motion:keyPositionType="parentRelative"
@@ -89,16 +89,16 @@
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.689"
-                motion:percentY="0.239" />
+                motion:percentX="0.182"
+                motion:percentY="0.369" />
 
             <KeyPosition
                 motion:framePosition="60"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.809"
-                motion:percentY="0.403" />
+                motion:percentX="0.303"
+                motion:percentY="0.524" />
 
             <KeyPosition
                 motion:framePosition="65"
@@ -112,48 +112,48 @@
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.389"
-                motion:percentY="0.581" />
+                motion:percentX="0.887"
+                motion:percentY="0.363" />
 
             <KeyPosition
                 motion:framePosition="75"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.089"
-                motion:percentY="0.503" />
+                motion:percentX="0.707"
+                motion:percentY="0.141" />
 
             <KeyPosition
                 motion:framePosition="80"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.046"
-                motion:percentY="0.29" />
+                motion:percentX="0.283"
+                motion:percentY="0.162" />
 
             <KeyPosition
                 motion:framePosition="85"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.198"
-                motion:percentY="0.173" />
+                motion:percentX="0.028"
+                motion:percentY="0.363" />
 
             <KeyPosition
                 motion:framePosition="90"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.543"
-                motion:percentY="0.118" />
+                motion:percentX="0.281"
+                motion:percentY="0.637" />
 
             <KeyPosition
                 motion:framePosition="95"
                 motion:keyPositionType="parentRelative"
                 motion:motionTarget="@+id/button"
                 motion:pathMotionArc="startVertical"
-                motion:percentX="0.826"
-                motion:percentY="0.179" />
+                motion:percentX="0.861"
+                motion:percentY="0.582" />
         </KeyFrameSet>
         <OnClick motion:targetId="@id/button" />
     </Transition>
