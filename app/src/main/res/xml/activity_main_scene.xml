@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="5000">
+        <KeyFrameSet>
+            <KeyPosition
+                motion:framePosition="5"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startHorizontal"
+                motion:percentX="0.47"
+                motion:percentY="0.428" />
+
+            <KeyPosition
+                motion:framePosition="10"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.365"
+                motion:percentY="0.398" />
+
+            <KeyPosition
+                motion:framePosition="15"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.333"
+                motion:percentY="0.327" />
+
+            <KeyPosition
+                motion:framePosition="20"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.428"
+                motion:percentY="0.273" />
+
+            <KeyPosition
+                motion:framePosition="25"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.65"
+                motion:percentY="0.295" />
+
+            <KeyPosition
+                motion:framePosition="30"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.674"
+                motion:percentY="0.403" />
+
+            <KeyPosition
+                motion:framePosition="35"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.546"
+                motion:percentY="0.496" />
+
+            <KeyPosition
+                motion:framePosition="40"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.27"
+                motion:percentY="0.468" />
+            <KeyPosition
+                motion:framePosition="45"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.211"
+                motion:percentY="0.353" />
+            <KeyPosition
+                motion:framePosition="50"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.352"
+                motion:percentY="0.222" />
+            <KeyPosition
+                motion:framePosition="55"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.689"
+                motion:percentY="0.239" />
+
+            <KeyPosition
+                motion:framePosition="60"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.809"
+                motion:percentY="0.403" />
+
+            <KeyPosition
+                motion:framePosition="65"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.683"
+                motion:percentY="0.54" />
+            <KeyPosition
+                motion:framePosition="70"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.389"
+                motion:percentY="0.581" />
+
+            <KeyPosition
+                motion:framePosition="75"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.089"
+                motion:percentY="0.503" />
+
+            <KeyPosition
+                motion:framePosition="80"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.046"
+                motion:percentY="0.29" />
+
+            <KeyPosition
+                motion:framePosition="85"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.198"
+                motion:percentY="0.173" />
+
+            <KeyPosition
+                motion:framePosition="90"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.543"
+                motion:percentY="0.118" />
+
+            <KeyPosition
+                motion:framePosition="95"
+                motion:keyPositionType="parentRelative"
+                motion:motionTarget="@+id/button"
+                motion:pathMotionArc="startVertical"
+                motion:percentX="0.826"
+                motion:percentY="0.179" />
+        </KeyFrameSet>
+        <OnClick motion:targetId="@id/button" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/button"
+            android:layout_width="27dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="188dp"
+            android:layout_marginLeft="188dp"
+            android:layout_marginTop="250dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent">
+            <CustomAttribute
+                motion:attributeName="BackgroundColor"
+                motion:customColorValue="#eaf27e" />
+        </Constraint>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/button"
+            android:layout_width="35dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="360dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="280dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent">
+            <CustomAttribute
+                motion:attributeName="BackgroundColor"
+                motion:customColorValue="#ff3d5a" />
+        </Constraint>
+    </ConstraintSet>
+</MotionScene>
